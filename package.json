@@ -1,23 +1,24 @@
 {
-  "name": "karma-coverage",
+  "name": "karma-coverage-coffee",
   "version": "0.1.0",
-  "description": "A Karma plugin. Generate code coverage.",
+  "description": "A Karma plugin. Generate code coverage for coffeescript",
   "main": "lib/index.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-coverage.git"
+    "url": "https://github.com/XTalandier/karma-coverage-coffee.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-preprocessor",
     "karma-reporter",
     "coverage",
-    "istanbul"
+    "istanbul",
+    "coffeescript"
   ],
-  "author": "SATO taichi <ryushi@gmail.com>",
+  "author": "Xavier TALANDIER <xavier@talandier.fr>",
   "dependencies": {
     "istanbul": "~0.1.41",
     "dateformat": "~1.0.6"
